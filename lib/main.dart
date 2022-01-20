@@ -138,7 +138,9 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: StreamBuilder<User?>(
+      home:
+      // LocalNotificationScreen(),
+      StreamBuilder<User?>(
         stream: FirebaseAuth.instance.userChanges(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {

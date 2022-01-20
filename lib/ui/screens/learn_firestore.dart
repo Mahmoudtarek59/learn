@@ -46,7 +46,7 @@ class _LearnFirestoreState extends State<LearnFirestore> {
                 var data = snapshot.data!.docs;
                 return ListView.builder(
                   itemCount: data.length,
-                  reverse: true,///edit
+                  reverse: true,
                   dragStartBehavior: DragStartBehavior.down,
                   itemBuilder: (context, index) => Container(
                     width: double.infinity,
