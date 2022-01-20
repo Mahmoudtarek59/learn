@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">flutter-test</string>
+    <string name="facebook_app_id">764193461642256</string>
+    <string name="fb_login_protocol_scheme">fb764193461642256</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+<!--    <string name="facebook_client_token">YOUR_CLIENT_TOKEN</string>-->
+</resources>
